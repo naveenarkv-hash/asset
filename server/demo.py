@@ -1406,7 +1406,7 @@ def export_fixture(fixture, destination):
         with (out / (name + ".csv")).open(
             "w", newline="", encoding="utf-8-sig"
         ) as file:
-            writer = csv.DictWriter(file, fieldnames=fields)
+            writer = csv.DictWriter(file, fieldnames=fields, lineterminator="\n")
             writer.writeheader()
             for row in rows:
                 writer.writerow(
@@ -1480,7 +1480,8 @@ Node.js LTS (22.12+) and Python 3.12+ are required. The standard **START_ASSETQ.
 
 ## Logins
 
-Workspace ID: **{WORKSPACE}**  
+Workspace ID: **{WORKSPACE}**
+
 Initial password for every fictional account: **{DEMO_PASSWORD}**
 
 | Role | Person | Email |

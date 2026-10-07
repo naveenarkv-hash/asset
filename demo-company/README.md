@@ -10,7 +10,8 @@ Node.js LTS (22.12+) and Python 3.12+ are required. The standard **START_ASSETQ.
 
 ## Logins
 
-Workspace ID: **evergreen-demo**  
+Workspace ID: **evergreen-demo**
+
 Initial password for every fictional account: **AssetQDemo!2026**
 
 | Role                   | Person       | Email                                  |
