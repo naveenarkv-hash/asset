@@ -25,6 +25,18 @@ npm start
 
 The Python server then serves both the built application and the API on port 8000. Terminate the development API before starting another API on that port.
 
+## Complete demonstration company
+
+For a populated fictional company, double-click **START_ASSETQ_DEMO.bat** on Windows or run `npm run demo`. This prepares **Evergreen Industries** in a separate demo database and starts demo services on ports 8050/5180. It preserves existing normal customer data and preserves demo edits on repeat runs.
+
+- Workspace: `evergreen-demo`
+- Administrator: `admin@evergreen.example.test`
+- Initial public demo password: `AssetQDemo!2026`
+
+The sample includes 30 users across seven roles, 80 assets, 36 tickets, 20 maintenance orders, all required masters, approval examples, floor plans, notifications, and audit history. See [all role logins and scenarios](demo-company/README.md). The [Excel workbook](demo-company/Evergreen-Company-Data.xlsx), module CSVs, and full JSON export are in `demo-company/`.
+
+Demo passwords are public examples for local testing. Keep the demonstration separate from public customer environments. Nothing is added to a normal workspace unless you explicitly run the loader with a custom database path.
+
 ## First customer journey
 
 1. Register an organization, workspace ID, and administrator account.

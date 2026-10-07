@@ -1018,7 +1018,20 @@ class Handler(BaseHTTPRequestHandler):
                 try:
                     ZoneInfo(d["timezone"])
                 except ZoneInfoNotFoundError:
-                    raise APIError("Invalid time zone")
+                    # Windows may lack an IANA database. These are the known
+                    # valid metadata choices exposed by the current UI.
+                    require(
+                        d["timezone"]
+                        in {
+                            "UTC",
+                            "Asia/Kolkata",
+                            "Pacific/Port_Moresby",
+                            "Europe/London",
+                            "America/New_York",
+                            "Australia/Sydney",
+                        },
+                        "Invalid time zone",
+                    )
             allowed("settings")
             s = json.loads(
                 c.execute("SELECT settings FROM tenants WHERE id=?", (t,)).fetchone()[0]
@@ -1661,7 +1674,7 @@ def scheduler():
 if __name__ == "__main__":
     init()
     threading.Thread(target=scheduler, daemon=True).start()
-    print("AssetQ API listening on :8000", flush=True)
-    ThreadingHTTPServer(
-        ("0.0.0.0", int(os.environ.get("PORT", "8000"))), Handler
-    ).serve_forever()
+    host = os.environ.get("ASSETQ_BIND_HOST", "0.0.0.0")
+    port = int(os.environ.get("PORT", "8000"))
+    print(f"AssetQ API listening on {host}:{port}", flush=True)
+    ThreadingHTTPServer((host, port), Handler).serve_forever()

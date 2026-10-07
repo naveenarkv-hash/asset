@@ -468,7 +468,13 @@ function App() {
       <Auth
         onAuth={(d) => {
           setData(d);
-          setOnboard(true);
+          setPage("overview");
+          setSearch("");
+          setFilter("ALL");
+          setNotifications(false);
+          setOnboard(
+            !d.tenant.settings.live && d.me.permissions.includes("settings"),
+          );
         }}
       />
     );

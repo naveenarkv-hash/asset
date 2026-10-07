@@ -15,7 +15,8 @@ export default defineConfig({
   },
   webServer: [
     {
-      command: "ASSETQ_DB=.data/e2e.sqlite3 PORT=8001 python server/app.py",
+      command:
+        "node scripts/python.mjs server/demo.py --database .data/e2e.sqlite3 && ASSETQ_DB=.data/e2e.sqlite3 PORT=8001 node scripts/python.mjs server/app.py",
       url: "http://127.0.0.1:8001/api/health",
       reuseExistingServer: false,
     },

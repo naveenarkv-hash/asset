@@ -1,0 +1,8 @@
+﻿code,name,permissions,id
+ADMIN,Administrator,"[""assets"", ""tickets"", ""maintenance"", ""masters"", ""users"", ""roles"", ""automation"", ""finance"", ""approvals"", ""audit"", ""settings""]",3ee32ccb-2ef1-446e-8f5c-2d5ae04f784f
+ASSET,Asset manager,"[""assets"", ""maintenance"", ""masters"", ""finance"", ""approvals"", ""audit""]",08ade231-dbff-4a2e-9ac0-0f0498ca3f28
+HELPDESK,Helpdesk agent,"[""tickets"", ""maintenance"", ""assets""]",1b8ad6f8-eb78-43ce-88b7-4232da736e46
+EMPLOYEE,Employee,[],3f2be03f-0911-4c66-a206-62ad91774b18
+AUDITOR,Auditor,"[""audit""]",d7ba3344-ed6e-42bd-becf-485a8bdc4e98
+FINANCE,Finance analyst,"[""finance"", ""approvals"", ""audit""]",421df790-95b0-5c66-ac3f-f31d08e88b95
+TECHNICIAN,Maintenance technician,"[""maintenance"", ""assets""]",da4eb7d1-5949-5e0e-8240-f8aa9f27f639

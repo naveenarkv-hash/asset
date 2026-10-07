@@ -1,0 +1,31 @@
+{
+  "company": "Evergreen Industries",
+  "workspace": "evergreen-demo",
+  "demo_only": true,
+  "as_of": "2026-10-07",
+  "counts": {
+    "assets": 80,
+    "tickets": 36,
+    "maintenance": 20,
+    "locations": 26,
+    "departments": 8,
+    "categories": 12,
+    "models": 18,
+    "vendors": 6,
+    "contracts": 8,
+    "sla": 5,
+    "services": 6,
+    "depreciation": 6,
+    "taxes": 3,
+    "checklists": 6,
+    "knowledge": 10,
+    "approvals": 7,
+    "rules": 11,
+    "notifications": 180,
+    "layouts": 3,
+    "users": 30,
+    "roles": 7,
+    "audit": 472
+  },
+  "derived_records": "Includes a complete exported snapshot of notifications, automation rules, and audit events. Fresh installations generate these events again through the existing application code."
+}

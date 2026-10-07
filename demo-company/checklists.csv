@@ -1,0 +1,25 @@
+﻿created_at,updated_at,id,code,name,status,steps
+2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,493e497f-985b-5d96-a937-44576961e000,CHK-IT,IT health check,ACTIVE,"Inspect device condition
+Confirm patch and antivirus status
+Verify backup and connectivity
+Record findings"
+2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,d5cb4398-15e1-5e5f-a966-91d1cf2c8254,CHK-NET,Network inspection,ACTIVE,"Inspect cabling and power
+Check link status and firmware
+Record utilization and errors
+Confirm redundancy"
+2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,9b0c2630-afc0-53bf-ba42-008fdff7c2be,CHK-GEN,Generator service,ACTIVE,"Verify safe isolation
+Inspect fluids and connections
+Run authorized load test
+Record run hours and findings"
+2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,ff708516-2b73-5665-afdd-8e3d4e5040de,CHK-HVAC,HVAC service,ACTIVE,"Isolate equipment safely
+Clean filters and inspect coils
+Check drainage and operating readings
+Restore service and record findings"
+2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,d0deb19e-0a41-5f3b-84ce-41f012b5f1de,CHK-FLEET,Fleet inspection,ACTIVE,"Inspect tires brakes and lights
+Record odometer and fluid readings
+Verify documents and safety kit
+Record service findings"
+2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,f937a873-8f48-5d35-97f5-458b7214b5e0,CHK-SAFE,Safety equipment inspection,ACTIVE,"Verify tag and access
+Inspect seal and pressure indicator
+Check inspection dates
+Record condition and corrective action"

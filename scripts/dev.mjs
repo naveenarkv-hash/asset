@@ -14,7 +14,7 @@ const vite = spawn(
   [
     "node_modules/vite/bin/vite.js",
     "--host",
-    "0.0.0.0",
+    process.env.ASSETQ_BIND_HOST || "0.0.0.0",
     "--port",
     process.env.ASSETQ_WEB_PORT || "5173",
   ],

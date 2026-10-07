@@ -10,7 +10,10 @@
     "server": "node scripts/python.mjs server/app.py",
     "test": "node scripts/python.mjs -m unittest discover -s tests -v",
     "start": "node scripts/python.mjs server/app.py",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "demo": "node scripts/demo.mjs",
+    "demo:seed": "node scripts/python.mjs server/demo.py",
+    "demo:export": "node scripts/python.mjs server/demo.py --export demo-company --export-only"
   },
   "dependencies": {
     "@fontsource/dm-sans": "^5.3.0",

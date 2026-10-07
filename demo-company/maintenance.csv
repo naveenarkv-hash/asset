@@ -1,0 +1,81 @@
+﻿created_at,updated_at,id,code,name,status,asset_id,scheduled_date,frequency_days,group,assigned_user_id,checklist,dedupe,completed_at,notes,completed_steps
+2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,c4782343-fb8e-55cd-9b32-294847ffb188,WO-0009,Generator service · AST-0065,IN_PROGRESS,eddf8a94-48e3-5ff2-b037-a73f54fecdc3,2026-10-04,30,Facilities,6c7266b8-430b-5f5b-8241-23ef8680f97e,"Verify safe isolation
+Inspect fluids and connections
+Run authorized load test
+Record run hours and findings",pm:eddf8a94-48e3-5ff2-b037-a73f54fecdc3:2026-10-04,,,
+2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,54ecb674-60f6-58a9-a54b-f39360492fff,WO-0010,HVAC service · AST-0068,IN_PROGRESS,7c8fc5c3-64f7-5b07-b12e-d83ba811cfc4,2026-10-04,30,Facilities,62378329-5e5e-574e-8e3e-a5bcb3ac512a,"Isolate equipment safely
+Clean filters and inspect coils
+Check drainage and operating readings
+Restore service and record findings",pm:7c8fc5c3-64f7-5b07-b12e-d83ba811cfc4:2026-10-04,,,
+2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,282dd958-3533-59bc-b91b-04253ee63bb4,WO-0011,Fleet inspection · AST-0073,IN_PROGRESS,91d0853f-a9fe-5372-8073-9fbf02324965,2026-10-04,30,Facilities,3669fd23-1873-5f1d-8cba-b2e0d79594e4,"Inspect tires brakes and lights
+Record odometer and fluid readings
+Verify documents and safety kit
+Record service findings",pm:91d0853f-a9fe-5372-8073-9fbf02324965:2026-10-04,,,
+2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,d0907f26-5ca9-5d6d-8752-5a171d93ac22,WO-0012,Network inspection · AST-0055,IN_PROGRESS,b9f741cf-2bec-5704-8671-30471846bf0b,2026-10-04,90,IT support,178b43e4-e90c-5d29-8744-9043c4193b85,"Inspect cabling and power
+Check link status and firmware
+Record utilization and errors
+Confirm redundancy",pm:b9f741cf-2bec-5704-8671-30471846bf0b:2026-10-04,,,
+2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,7f508b66-5d66-50cf-8b50-3021967d5289,WO-0013,IT health check · AST-0006,SCHEDULED,a55b509a-520a-57c1-b916-2e2ee08f21d0,2026-10-03,90,IT support,178b43e4-e90c-5d29-8744-9043c4193b85,"Inspect device condition
+Confirm patch and antivirus status
+Verify backup and connectivity
+Record findings",pm:a55b509a-520a-57c1-b916-2e2ee08f21d0:2026-10-03,,,
+2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,9a44c3be-b6f9-5a82-985d-d39f79e70ea3,WO-0014,IT health check · AST-0007,SCHEDULED,f60ba54a-f625-5732-bdf5-e7f4e1ecb687,2026-10-05,90,IT support,178b43e4-e90c-5d29-8744-9043c4193b85,"Inspect device condition
+Confirm patch and antivirus status
+Verify backup and connectivity
+Record findings",pm:f60ba54a-f625-5732-bdf5-e7f4e1ecb687:2026-10-05,,,
+2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,f71367f2-37f2-5bb5-bcbb-4bbbe54bd65a,WO-0015,IT health check · AST-0008,SCHEDULED,a03e9912-e319-5717-b76d-461620026f1b,2026-10-07,90,IT support,178b43e4-e90c-5d29-8744-9043c4193b85,"Inspect device condition
+Confirm patch and antivirus status
+Verify backup and connectivity
+Record findings",pm:a03e9912-e319-5717-b76d-461620026f1b:2026-10-07,,,
+2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,909b461b-c075-551b-bb5e-e8a73e91205d,WO-0016,IT health check · AST-0009,SCHEDULED,73d873d9-0307-5636-80a5-fc1ea9095ed7,2026-10-08,90,IT support,178b43e4-e90c-5d29-8744-9043c4193b85,"Inspect device condition
+Confirm patch and antivirus status
+Verify backup and connectivity
+Record findings",pm:73d873d9-0307-5636-80a5-fc1ea9095ed7:2026-10-08,,,
+2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,5c790807-8123-5c68-be6c-1277673f83d9,WO-0017,IT health check · AST-0010,SCHEDULED,b2b74f9a-26c3-5c7d-82be-3a0ff3f01a1d,2026-10-10,90,IT support,178b43e4-e90c-5d29-8744-9043c4193b85,"Inspect device condition
+Confirm patch and antivirus status
+Verify backup and connectivity
+Record findings",pm:b2b74f9a-26c3-5c7d-82be-3a0ff3f01a1d:2026-10-10,,,
+2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,dd428a7d-2a75-532f-8694-439753fe2168,WO-0018,IT health check · AST-0011,SCHEDULED,4846ec21-dd40-512b-8710-f5a3548c91de,2026-10-12,90,IT support,178b43e4-e90c-5d29-8744-9043c4193b85,"Inspect device condition
+Confirm patch and antivirus status
+Verify backup and connectivity
+Record findings",pm:4846ec21-dd40-512b-8710-f5a3548c91de:2026-10-12,,,
+2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,e2bbe9db-2b49-5fe3-8efa-4b1c681f5cd9,WO-0019,IT health check · AST-0012,SCHEDULED,a72fb78c-8041-5558-b48b-bc7b0dab3603,2026-10-17,90,IT support,178b43e4-e90c-5d29-8744-9043c4193b85,"Inspect device condition
+Confirm patch and antivirus status
+Verify backup and connectivity
+Record findings",pm:a72fb78c-8041-5558-b48b-bc7b0dab3603:2026-10-17,,,
+2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,41ee1267-484f-5f70-b1cb-769bd576cd39,WO-0020,IT health check · AST-0013,SCHEDULED,440abc8f-ab37-5e99-9622-7cb90746295b,2026-10-21,90,IT support,178b43e4-e90c-5d29-8744-9043c4193b85,"Inspect device condition
+Confirm patch and antivirus status
+Verify backup and connectivity
+Record findings",pm:440abc8f-ab37-5e99-9622-7cb90746295b:2026-10-21,,,
+2026-08-30T00:00:00+00:00,2026-09-07T16:00:00+00:00,d60bd35d-618f-59a1-a012-cfa9c56e6325,WO-0001,IT health check · AST-0003,COMPLETED,63caf73f-2bd0-589f-8f09-fc5365c91c63,2026-09-06,90,IT support,178b43e4-e90c-5d29-8744-9043c4193b85,"Inspect device condition
+Confirm patch and antivirus status
+Verify backup and connectivity
+Record findings",,2026-09-07T16:00:00+00:00,Demo maintenance completed. All checklist steps passed; no unsafe bypasses performed.,"[""Inspect device condition"", ""Confirm patch and antivirus status"", ""Verify backup and connectivity"", ""Record findings""]"
+2026-08-29T00:00:00+00:00,2026-09-06T16:00:00+00:00,39a2ccc2-97eb-5ac6-9020-8e7acf8f0955,WO-0002,IT health check · AST-0049,COMPLETED,5998924f-20e6-5028-8635-e8732ca07fa9,2026-09-05,90,IT support,178b43e4-e90c-5d29-8744-9043c4193b85,"Inspect device condition
+Confirm patch and antivirus status
+Verify backup and connectivity
+Record findings",,2026-09-06T16:00:00+00:00,Demo maintenance completed. All checklist steps passed; no unsafe bypasses performed.,"[""Inspect device condition"", ""Confirm patch and antivirus status"", ""Verify backup and connectivity"", ""Record findings""]"
+2026-08-28T00:00:00+00:00,2026-09-05T16:00:00+00:00,7d2c701c-c7d4-503f-966d-d58d227c064a,WO-0003,Generator service · AST-0064,COMPLETED,f61d4fce-72b1-5851-85e1-a2c59af1754a,2026-09-04,30,Facilities,6c7266b8-430b-5f5b-8241-23ef8680f97e,"Verify safe isolation
+Inspect fluids and connections
+Run authorized load test
+Record run hours and findings",,2026-09-05T16:00:00+00:00,Demo maintenance completed. All checklist steps passed; no unsafe bypasses performed.,"[""Verify safe isolation"", ""Inspect fluids and connections"", ""Run authorized load test"", ""Record run hours and findings""]"
+2026-08-27T00:00:00+00:00,2026-09-04T16:00:00+00:00,c414a70d-3030-5818-80cc-366b7d13e46a,WO-0004,Generator service · AST-0065,COMPLETED,eddf8a94-48e3-5ff2-b037-a73f54fecdc3,2026-09-03,30,Facilities,6c7266b8-430b-5f5b-8241-23ef8680f97e,"Verify safe isolation
+Inspect fluids and connections
+Run authorized load test
+Record run hours and findings",,2026-09-04T16:00:00+00:00,Demo maintenance completed. All checklist steps passed; no unsafe bypasses performed.,"[""Verify safe isolation"", ""Inspect fluids and connections"", ""Run authorized load test"", ""Record run hours and findings""]"
+2026-08-26T00:00:00+00:00,2026-09-03T16:00:00+00:00,f7e594d8-d5c7-5f8c-9cec-feee186b5172,WO-0005,HVAC service · AST-0067,COMPLETED,d588ebe0-76c8-58b6-85f9-bc590c89f778,2026-09-02,30,Facilities,62378329-5e5e-574e-8e3e-a5bcb3ac512a,"Isolate equipment safely
+Clean filters and inspect coils
+Check drainage and operating readings
+Restore service and record findings",,2026-09-03T16:00:00+00:00,Demo maintenance completed. All checklist steps passed; no unsafe bypasses performed.,"[""Isolate equipment safely"", ""Clean filters and inspect coils"", ""Check drainage and operating readings"", ""Restore service and record findings""]"
+2026-08-25T00:00:00+00:00,2026-09-02T16:00:00+00:00,75ee1c09-e475-5ece-8f03-27ea0ebd5690,WO-0006,HVAC service · AST-0068,COMPLETED,7c8fc5c3-64f7-5b07-b12e-d83ba811cfc4,2026-09-01,30,Facilities,62378329-5e5e-574e-8e3e-a5bcb3ac512a,"Isolate equipment safely
+Clean filters and inspect coils
+Check drainage and operating readings
+Restore service and record findings",,2026-09-02T16:00:00+00:00,Demo maintenance completed. All checklist steps passed; no unsafe bypasses performed.,"[""Isolate equipment safely"", ""Clean filters and inspect coils"", ""Check drainage and operating readings"", ""Restore service and record findings""]"
+2026-08-24T00:00:00+00:00,2026-09-01T16:00:00+00:00,30e3d968-5a0b-51b2-925e-2bba37d7b5a2,WO-0007,Fleet inspection · AST-0073,COMPLETED,91d0853f-a9fe-5372-8073-9fbf02324965,2026-08-31,30,Facilities,3669fd23-1873-5f1d-8cba-b2e0d79594e4,"Inspect tires brakes and lights
+Record odometer and fluid readings
+Verify documents and safety kit
+Record service findings",,2026-09-01T16:00:00+00:00,Demo maintenance completed. All checklist steps passed; no unsafe bypasses performed.,"[""Inspect tires brakes and lights"", ""Record odometer and fluid readings"", ""Verify documents and safety kit"", ""Record service findings""]"
+2026-08-23T00:00:00+00:00,2026-08-31T16:00:00+00:00,439483ad-6910-54b9-98f2-e9531aea3720,WO-0008,Network inspection · AST-0055,COMPLETED,b9f741cf-2bec-5704-8671-30471846bf0b,2026-08-30,90,IT support,178b43e4-e90c-5d29-8744-9043c4193b85,"Inspect cabling and power
+Check link status and firmware
+Record utilization and errors
+Confirm redundancy",,2026-08-31T16:00:00+00:00,Demo maintenance completed. All checklist steps passed; no unsafe bypasses performed.,"[""Inspect cabling and power"", ""Check link status and firmware"", ""Record utilization and errors"", ""Confirm redundancy""]"

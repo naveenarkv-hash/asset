@@ -19,8 +19,12 @@ npm run dev
 
 If your Desktop is in OneDrive or you extracted elsewhere, open the `AssetQ` folder in File Explorer, type `cmd` into its address bar, and press Enter. Then run `npm ci` and `npm run dev`. This avoids guessing the folder's path.
 
-AssetQ automatically checks for the Python launcher or Python executable. If Python is not found, finish installing it and reopen the command window. For time-zone setting changes on Windows, install the official time-zone data with `py -3 -m pip install tzdata` if the application reports an unavailable time zone.
+AssetQ automatically checks for the Python launcher or Python executable. If Python is not found, finish installing it and reopen the command window.
 
 Your local data is created in `AssetQ\.data\assetq.sqlite3`. This download excludes cloud databases, passwords, sessions, environment variables, and test customer data. Register a new workspace on your computer.
 
 This starts AssetQ locally on your computer; public SaaS hosting is a separate deployment step.
+
+## Start with a fully populated sample company
+
+Double-click **START_ASSETQ_DEMO.bat** instead of the normal starter. It loads Evergreen Industries into a separate database with 30 accounts, 80 assets, and the remaining module data. Sign in with workspace `evergreen-demo`, email `admin@evergreen.example.test`, and public demo password `AssetQDemo!2026`. See `demo-company/README.md` for each role’s login and the Excel workbook. The regular customer database is preserved.

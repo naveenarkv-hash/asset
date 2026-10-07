@@ -1,0 +1,7 @@
+﻿code,name,method,life_months,residual_percent,status,id,created_at,updated_at,gl_asset_account,gl_dep_account
+DEP-IT,IT equipment · straight line,SLM,36,10,ACTIVE,83f66481-aaf3-4a13-962d-f12bb50ee958,2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,1501,6501
+DEP-EQP,Plant equipment · straight line,SLM,120,10,ACTIVE,bca28462-661f-50d3-bbf2-dae1078e9871,2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,1502,6502
+DEP-VEH,Vehicles · declining balance,WDV,60,20,ACTIVE,4c67a151-31e9-55b5-8a71-ab629ca64680,2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,1503,6503
+DEP-FURN,Furniture · straight line,SLM,84,10,ACTIVE,27b1674b-4473-5158-be86-60c7ed4cf22f,2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,1504,6504
+DEP-NET,Network and servers · straight line,SLM,60,10,ACTIVE,dafc5b16-d178-54bf-ae95-12aa23776731,2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,1505,6505
+DEP-HVAC,HVAC equipment · straight line,SLM,96,10,ACTIVE,1cd2f72e-049d-5daf-9b65-a34c662a937e,2026-10-06T07:01:13+00:00,2026-10-07T06:01:13+00:00,1506,6506

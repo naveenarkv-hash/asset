@@ -1,0 +1,12 @@
+﻿code,name,event,description,enabled,threshold,status,id,created_at,updated_at
+AR-11,New asset acknowledgment,AssetCreated,Log and acknowledge registered assets,True,,ACTIVE,9ffd27ee-915f-4c57-81c9-b5d9466985a1,2026-10-07T07:01:14.148678+00:00,2026-10-07T07:01:14.148680+00:00
+AR-10,Maintenance completion,MaintenanceCompleted,Log completion and notify the asset team,True,,ACTIVE,5796956b-fdf5-446d-97e5-c066e90cb733,2026-10-07T07:01:14.148664+00:00,2026-10-07T07:01:14.148666+00:00
+AR-09,Approval reminders,ApprovalRequested,Notify approvers about governed actions,True,,ACTIVE,8bf3899c-fb83-45dd-b15a-78bec74e5d61,2026-10-07T07:01:14.148649+00:00,2026-10-07T07:01:14.148651+00:00
+AR-08,Recurring incident detection,RecurringIncident,Flag assets with three or more active incidents,True,3,ACTIVE,992f8c83-8e9f-4597-a38c-9670a157aabc,2026-10-07T07:01:14.148635+00:00,2026-10-07T07:01:14.148637+00:00
+AR-07,Lifecycle updates,AssetStatusChanged,Notify on asset status changes,True,,ACTIVE,3056918a-9ff9-4d58-9113-54e67c39f41f,2026-10-07T07:01:14.148620+00:00,2026-10-07T07:01:14.148622+00:00
+AR-06,Preventive maintenance,PMDue,Create a work order when maintenance is due,True,,ACTIVE,17493b8f-2813-48bf-aea7-94a8c3db9ea8,2026-10-07T07:01:14.148606+00:00,2026-10-07T07:01:14.148608+00:00
+AR-05,Warranty watch,WarrantyExpiring,Notify 30 days before warranty expiry,True,30,ACTIVE,24ab0b15-a1da-45af-81db-c989a7d7306f,2026-10-07T07:01:14.148592+00:00,2026-10-07T07:01:14.148594+00:00
+AR-04,Resolution updates,TicketResolved,Notify requester of resolution,True,,ACTIVE,3ef6c0dd-bb88-425e-be5c-bd830e1d0a25,2026-10-07T07:01:14.148578+00:00,2026-10-07T07:01:14.148580+00:00
+AR-03,SLA escalation,TicketBreached,Raise an escalation notification,True,,ACTIVE,ff4a8f00-2e60-4fb6-aeb3-3288c57acb70,2026-10-07T07:01:14.148564+00:00,2026-10-07T07:01:14.148566+00:00
+AR-02,SLA early warning,SLAAtRisk,Notify when 80% of the resolution window is used,True,80,ACTIVE,bab1dfa5-90cb-45b9-9c6b-cb0b3745a61d,2026-10-07T07:01:14.148549+00:00,2026-10-07T07:01:14.148551+00:00
+AR-01,Ticket acknowledgments,TicketCreated,Notify requester and route the ticket,True,,ACTIVE,da9a913e-0868-47ed-a116-2182605cb188,2026-10-07T07:01:14.148533+00:00,2026-10-07T07:01:14.148534+00:00
